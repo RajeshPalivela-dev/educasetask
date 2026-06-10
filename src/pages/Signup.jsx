@@ -93,8 +93,30 @@ const Signup = () => {
   </label>
 
 
+
+
 </div>
 
+<div className="absolute top-[474px] left-[20px] w-[125px] h-[15px] text-left text-[13px] leading-[17px] font-normal font-rubik opacity-100">Are you an Agency?
+  <span className="absolute top-0 left-[120px] w-[6px] h-[15px] text-[13px] leading-[17px] font-normal font-rubik text-[#DD4A3D]">
+  *
+</span>
+</div>
+
+<div className="absolute top-[504px] left-[25px] flex items-center gap-4">
+  
+  
+  <label className="flex items-center gap-2 text-[14px] text-[#1D2226]">
+    <input type="radio" name="choice" value="Yes" className="w-[16px] top-[502px] h-[16px]" />
+    Yes
+  </label>
+
+  <label className="flex items-center gap-2 text-[14px] text-[#1D2226]">
+    <input type="radio" name="choice" value="No" className="w-[16px] h-[16px] top-[502px]" />
+    No
+  </label>
+
+</div>
 
 <button class="absolute top-[736px] left-[20px] w-[335px] h-[46px] bg-[#6C25FF] rounded-[6px] flex items-center justify-center" onClick={()=>navigate("/profile")}>
   <span class="text-center text-[16px] leading-[17px] font-medium text-white font-rubik">
